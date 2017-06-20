@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 82%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer {
+  flex: 0 1 25%;
+  padding-right: 20px;
+  margin-bottom: 50px;
+}
+
+.pics {
+  width: 100%;
+  text-align: center;
+}
+
+.full-name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: underline;
+
+}
+
+.email {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+
+.full-address {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 15px;
+
+}
+
+.phone {
+  text-align: center;
+  font-size: 15px;
+}
